@@ -1,0 +1,22 @@
+{
+  "name": "taverna-manolis",
+  "version": "0.0.1",
+  "description": "Web App for the best Resstaurant in Athers Taverna O Manolis",
+  "authors": [
+    "Nikos Geranios <ngeran@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.taverna-manolis.gr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "angular-deckgrid": "~0.5.0",
+    "angular-masonry": "~0.9.1"
+  }
+}

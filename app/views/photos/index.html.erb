@@ -1,0 +1,45 @@
+<!-- Header -->
+<div class="page-header photo-header">
+  <h1>
+    Photo
+    <small>management</small>
+  </h1>
+  <%= link_to 'Add Photo', new_photo_path,  {:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#myModal', :class => "btn btn-s-md btn-dark add-photo"}  %>
+</div>
+<!-- /Header Ends Here  -->
+<div class="gallery" id="gallery">
+  <!------ Images ------->
+<% @photos.each do |photo| %>
+  <div class="col-md-3 col-sm-6">
+    <div class="thumbnail">
+      <div class="hover-fader"><a href="#image-1"><%= image_tag(photo.image_url, :class => "img-rounded img-responsive") %><span class="zoom"><i class="fa fa-search-plus"></i></span></a></div>
+      <div id="image-1" class="gal-overlay"> <%= image_tag photo.image_url %>
+        <div>
+          <h3><%= photo.title %></h3>
+          <p><%= photo.description %></p>
+          <a class="gal-prev" href="#image-10"><i class="fa fa-angle-left"></i></a> <a class="gal-next" href="#image-2"><i class="fa fa-angle-right"></i></a> </div>
+        <a class="gal-close" href="#die"><i class="fa fa-times-circle"></i></a> </div>
+      <div class="caption">
+        <p class="small"><strong>Uploaded by:</strong> <%= User.find_by_id(photo.uploaded_by).name %> <br>
+        <i class="fa fa-clock-o"></i> <%= photo.created_at.strftime("%b %d, %Y") %> <br>
+        <strong>Image info:</strong> <%= photo.content_type %> | <%= (((photo.file_size).to_i) / 1000).ceil.to_s  %> Kb </p>
+        <div class="btn-group">
+          <div class="btn-group btn-group-xs">
+            <!-- Passing a block -->
+            <%= link_to edit_photo_path(photo), {:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#myModal'} do %>
+                <i class='fa fa-pencil-square-o'></i>
+            <% end %>
+          </div>
+          <div class="btn-group btn-group-xs move-just-a-little-bit">
+            <%= link_to  content_tag(:i,nil, :class=>"fa fa-trash-o"), photo, method: :delete, data: { confirm: 'Are you sure?' } %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+  <!------ /Images ------->
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>

@@ -1,0 +1,2179 @@
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 07:57:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (4.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (3.6ms)
+Completed 200 OK in 938ms (Views: 931.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (49.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (185.5ms)
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-04 07:57:46 -0500
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 08:00:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.1ms)
+Completed 200 OK in 931ms (Views: 930.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 08:00:12 -0500
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (0.0ms)
+Completed 200 OK in 563ms (Views: 562.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (32.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (174.2ms)
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-04 08:00:13 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-04 08:00:14 -0500
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 08:06:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.2ms)
+Completed 200 OK in 932ms (Views: 930.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-04 08:06:13 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (28.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (151.7ms)
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-04 08:06:14 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-04 08:06:14 -0500
+
+
+Started GET "/assets/components-font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0" for 155.178.180.5 at 2016-02-04 08:06:14 -0500
+
+
+Started GET "/assets/site/slide-bg.jpg" for 155.178.180.5 at 2016-02-04 08:06:14 -0500
+
+
+Started GET "/assets/templates/site/contact.html" for 155.178.180.5 at 2016-02-04 08:06:20 -0500
+
+
+Started GET "/assets/templates/site/map.html" for 155.178.180.5 at 2016-02-04 08:06:20 -0500
+
+
+Started GET "/assets/templates/site/photos.html" for 155.178.180.5 at 2016-02-04 08:06:24 -0500
+
+
+Started GET "/api/v1/photos" for 155.178.180.5 at 2016-02-04 08:06:24 -0500
+Processing by Api::V1::PhotosController#index as JSON
+Unpermitted parameters: format
+Unpermitted parameters: format
+Unpermitted parameters: format
+  [1m[35mPhoto Load (1.8ms)[0m  SELECT  "photos".* FROM "photos"  LIMIT 25 OFFSET 0
+  Rendered api/v1/photos/index.json.jbuilder (43.4ms)
+Completed 200 OK in 80ms (Views: 45.7ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/templates/site/catalog.html" for 155.178.180.5 at 2016-02-04 08:06:27 -0500
+
+
+Started GET "/api/v1/categories" for 155.178.180.5 at 2016-02-04 08:06:27 -0500
+Processing by Api::V1::CategoriesController#index as JSON
+Unpermitted parameters: format
+Unpermitted parameters: format
+Unpermitted parameters: format
+  [1m[36mCategory Load (2.8ms)[0m  [1mSELECT  "categories".* FROM "categories"  LIMIT 25 OFFSET 0[0m
+  [1m[35mItem Load (4.3ms)[0m  SELECT "items".* FROM "items"  WHERE "items"."category_id" = $1  [["category_id", 5]]
+  [1m[36mItem Load (5.5ms)[0m  [1mSELECT "items".* FROM "items"  WHERE "items"."category_id" = $1[0m  [["category_id", 1]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"  WHERE "items"."category_id" = $1  [["category_id", 7]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"  WHERE "items"."category_id" = $1[0m  [["category_id", 8]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT "items".* FROM "items"  WHERE "items"."category_id" = $1  [["category_id", 3]]
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT "items".* FROM "items"  WHERE "items"."category_id" = $1[0m  [["category_id", 2]]
+  [1m[35mItem Load (1.6ms)[0m  SELECT "items".* FROM "items"  WHERE "items"."category_id" = $1  [["category_id", 6]]
+  [1m[36mItem Load (2.4ms)[0m  [1mSELECT "items".* FROM "items"  WHERE "items"."category_id" = $1[0m  [["category_id", 4]]
+  Rendered api/v1/categories/index.json.jbuilder (156.9ms)
+Completed 200 OK in 185ms (Views: 135.7ms | ActiveRecord: 27.4ms)
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-04 08:06:33 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-04 08:06:33 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (39.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (157.5ms)
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-04 08:06:33 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-04 08:06:33 -0500
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 08:33:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.4ms)
+Completed 200 OK in 530ms (Views: 528.9ms | ActiveRecord: 0.0ms)
+
+Errno::EACCES (Permission denied @ sys_fail2 - (/home/rails/taverna-manolis/tmp/cache/_session_id%3A3aea4b0250408cb1bd49907efd4661fc20160204-27311-1tatijq, /home/rails/taverna-manolis/tmp/cache/E0E/C50/_session_id%3A3aea4b0250408cb1bd49907efd4661fc)):
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:527:in `rename'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:527:in `block in mv'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:1570:in `block in fu_each_src_dest'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:1586:in `fu_each_src_dest0'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:1568:in `fu_each_src_dest'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:516:in `mv'
+  activesupport (4.1.5) lib/active_support/core_ext/file/atomic.rb:36:in `atomic_write'
+  activesupport (4.1.5) lib/active_support/cache/file_store.rb:82:in `write_entry'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache.rb:115:in `write_entry'
+  activesupport (4.1.5) lib/active_support/cache.rb:389:in `block in write'
+  activesupport (4.1.5) lib/active_support/cache.rb:548:in `instrument'
+  activesupport (4.1.5) lib/active_support/cache.rb:387:in `write'
+  actionpack (4.1.5) lib/action_dispatch/middleware/session/cache_store.rb:29:in `set_session'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:342:in `commit_session'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.5) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.0.0) lib/better_errors/middleware.rb:59:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 08:33:50 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.2ms)
+Completed 200 OK in 450ms (Views: 449.1ms | ActiveRecord: 0.0ms)
+
+Errno::EACCES (Permission denied @ sys_fail2 - (/home/rails/taverna-manolis/tmp/cache/_session_id%3A3aea4b0250408cb1bd49907efd4661fc20160204-27327-11xdtgk, /home/rails/taverna-manolis/tmp/cache/E0E/C50/_session_id%3A3aea4b0250408cb1bd49907efd4661fc)):
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:527:in `rename'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:527:in `block in mv'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:1570:in `block in fu_each_src_dest'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:1586:in `fu_each_src_dest0'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:1568:in `fu_each_src_dest'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/fileutils.rb:516:in `mv'
+  activesupport (4.1.5) lib/active_support/core_ext/file/atomic.rb:36:in `atomic_write'
+  activesupport (4.1.5) lib/active_support/cache/file_store.rb:82:in `write_entry'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache.rb:115:in `write_entry'
+  activesupport (4.1.5) lib/active_support/cache.rb:389:in `block in write'
+  activesupport (4.1.5) lib/active_support/cache.rb:548:in `instrument'
+  activesupport (4.1.5) lib/active_support/cache.rb:387:in `write'
+  actionpack (4.1.5) lib/action_dispatch/middleware/session/cache_store.rb:29:in `set_session'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:342:in `commit_session'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:226:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.5) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.0.0) lib/better_errors/middleware.rb:59:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 08:36:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.9ms)
+Completed 200 OK in 2533ms (Views: 2532.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/site/slide-bg.jpg" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.4ms)
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-04 08:36:05 -0500
+
+
+Started GET "/" for 172.56.28.246 at 2016-02-04 09:08:19 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.8ms)
+Completed 200 OK in 540ms (Views: 539.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 172.56.28.246 at 2016-02-04 09:08:20 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 172.56.28.246 at 2016-02-04 09:08:20 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 172.56.28.246 at 2016-02-04 09:08:21 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:21 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 172.56.28.246 at 2016-02-04 09:08:22 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:22 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:22 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:22 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:22 -0500
+
+
+Started GET "/" for 8.28.16.254 at 2016-02-04 09:08:24 -0500
+Processing by SiteController#index as */*
+  Rendered site/index.html.erb within layouts/site (0.5ms)
+Completed 200 OK in 305ms (Views: 304.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 155.178.180.11 at 2016-02-04 09:08:24 -0500
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (0.1ms)
+Completed 200 OK in 297ms (Views: 296.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.11 at 2016-02-04 09:08:25 -0500
+
+
+Started GET "/" for 155.178.180.6 at 2016-02-04 09:08:25 -0500
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (0.1ms)
+Completed 200 OK in 360ms (Views: 359.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.6 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:26 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/components-font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/image.svg" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (12.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.7ms)
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/site/slide-bg.jpg" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.6 at 2016-02-04 09:08:27 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:30 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:32 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:33 -0500
+
+
+Started GET "/assets/items.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:33 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:34 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:34 -0500
+
+
+Started GET "/assets/site.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:34 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 172.56.28.246 at 2016-02-04 09:08:34 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 172.56.28.246 at 2016-02-04 09:08:35 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 172.56.28.246 at 2016-02-04 09:08:35 -0500
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 172.56.28.246 at 2016-02-04 09:08:36 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:36 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:36 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 172.56.28.246 at 2016-02-04 09:08:39 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:39 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:39 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:40 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 172.56.28.246 at 2016-02-04 09:08:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 172.56.28.246 at 2016-02-04 09:08:41 -0500
+
+
+Started GET "/assets/main.css" for 172.56.28.246 at 2016-02-04 09:08:41 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:41 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 172.56.28.246 at 2016-02-04 09:08:43 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 172.56.28.246 at 2016-02-04 09:08:49 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 172.56.28.246 at 2016-02-04 09:08:50 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 172.56.28.246 at 2016-02-04 09:08:51 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 172.56.28.246 at 2016-02-04 09:08:51 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 172.56.28.246 at 2016-02-04 09:08:51 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 172.56.28.246 at 2016-02-04 09:08:51 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 172.56.28.246 at 2016-02-04 09:08:51 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 172.56.28.246 at 2016-02-04 09:08:51 -0500
+
+
+Started GET "/assets/components-font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0" for 172.56.28.246 at 2016-02-04 09:08:52 -0500
+
+
+Started GET "/image.svg" for 172.56.28.246 at 2016-02-04 09:08:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.1ms)
+
+
+Started GET "/assets/site/slide-bg.jpg" for 172.56.28.246 at 2016-02-04 09:08:52 -0500
+
+
+Started GET "/assets/site/iphone_website.png" for 172.56.28.246 at 2016-02-04 09:08:54 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 172.56.28.246 at 2016-02-04 09:08:55 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 172.56.28.246 at 2016-02-04 09:08:56 -0500
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 11:22:32 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (5.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.5ms)
+Completed 200 OK in 960ms (Views: 958.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-04 11:22:34 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (30.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (155.1ms)
+
+
+Started GET "/assets/site/slide-bg.jpg" for 155.178.180.5 at 2016-02-04 11:22:35 -0500
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-04 11:22:35 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-04 11:22:35 -0500
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 11:47:09 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.5ms)
+Completed 200 OK in 2506ms (Views: 2504.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.5 at 2016-02-04 11:47:12 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (16.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.9ms)
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-04 11:47:13 -0500
+
+
+Started GET "/assets/site/slide-bg.jpg" for 155.178.180.5 at 2016-02-04 11:47:14 -0500
+
+
+Started GET "/assets/components-font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0" for 155.178.180.5 at 2016-02-04 11:47:14 -0500
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-04 11:47:30 -0500
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (0.2ms)
+Completed 200 OK in 289ms (Views: 287.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/components-font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.7ms)
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/site/slide-bg.jpg" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-04 11:47:31 -0500
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-05 06:27:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (3.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (1.6ms)
+Completed 200 OK in 1096ms (Views: 1095.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.5 at 2016-02-05 06:27:33 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-05 06:27:34 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-05 06:27:34 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-05 06:27:34 -0500
+
+
+Started GET "/assets/components-font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0" for 155.178.180.5 at 2016-02-05 06:27:34 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 155.178.180.5 at 2016-02-05 06:27:34 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (21.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (166.7ms)
+
+
+Started GET "/assets/site/slide-bg.jpg" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-05 06:27:35 -0500
+
+
+Started GET "/assets/templates/site/catalog.html" for 155.178.180.5 at 2016-02-05 06:27:45 -0500
+
+
+Started GET "/api/v1/categories" for 155.178.180.5 at 2016-02-05 06:27:45 -0500
+Processing by Api::V1::CategoriesController#index as JSON
+Unpermitted parameters: format
+Unpermitted parameters: format
+Unpermitted parameters: format
+  [1m[35mCategory Load (5.5ms)[0m  SELECT  "categories".* FROM "categories"  LIMIT 25 OFFSET 0
+  [1m[36mItem Load (1.5ms)[0m  [1mSELECT "items".* FROM "items"  WHERE "items"."category_id" = $1[0m  [["category_id", 5]]
+  [1m[35mItem Load (5.1ms)[0m  SELECT "items".* FROM "items"  WHERE "items"."category_id" = $1  [["category_id", 1]]
+  [1m[36mItem Load (5.1ms)[0m  [1mSELECT "items".* FROM "items"  WHERE "items"."category_id" = $1[0m  [["category_id", 7]]
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"  WHERE "items"."category_id" = $1  [["category_id", 8]]
+  [1m[36mItem Load (3.7ms)[0m  [1mSELECT "items".* FROM "items"  WHERE "items"."category_id" = $1[0m  [["category_id", 3]]
+  [1m[35mItem Load (4.0ms)[0m  SELECT "items".* FROM "items"  WHERE "items"."category_id" = $1  [["category_id", 2]]
+  [1m[36mItem Load (1.4ms)[0m  [1mSELECT "items".* FROM "items"  WHERE "items"."category_id" = $1[0m  [["category_id", 6]]
+  [1m[35mItem Load (2.3ms)[0m  SELECT "items".* FROM "items"  WHERE "items"."category_id" = $1  [["category_id", 4]]
+  Rendered api/v1/categories/index.json.jbuilder (164.2ms)
+Completed 200 OK in 198ms (Views: 132.2ms | ActiveRecord: 40.2ms)
+
+
+Started GET "/assets/templates/site/photos.html" for 155.178.180.5 at 2016-02-05 06:27:58 -0500
+
+
+Started GET "/api/v1/photos" for 155.178.180.5 at 2016-02-05 06:27:58 -0500
+Processing by Api::V1::PhotosController#index as JSON
+Unpermitted parameters: format
+Unpermitted parameters: format
+Unpermitted parameters: format
+  [1m[36mPhoto Load (5.6ms)[0m  [1mSELECT  "photos".* FROM "photos"  LIMIT 25 OFFSET 0[0m
+  Rendered api/v1/photos/index.json.jbuilder (34.9ms)
+Completed 200 OK in 70ms (Views: 39.0ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/assets/templates/site/contact.html" for 155.178.180.5 at 2016-02-05 06:28:00 -0500
+
+
+Started GET "/assets/templates/site/map.html" for 155.178.180.5 at 2016-02-05 06:28:00 -0500
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-05 07:27:08 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (4.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (4.3ms)
+Completed 200 OK in 941ms (Views: 935.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 155.178.180.5 at 2016-02-05 07:27:09 -0500
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/site (0.0ms)
+Completed 200 OK in 490ms (Views: 489.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components-font-awesome/css/font-awesome.css?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.css?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/animate.css/animate.css?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.css?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/toastr/toastr.css?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/dropzone/dropzone.css?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/main.css" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/bootstrap/dist/js/bootstrap.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/dataTables/bootstrap/3/jquery.dataTables.bootstrap.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/animateCSS/dist/jquery.animatecss.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/angular/angular.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/angular-resource/angular-resource.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/angular-masonry/angular-masonry.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/angular-route/angular-route.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/controllers/main.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/toastr/toastr.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/dropzone.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/albums.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/catalogs.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/dashboard.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/items.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/main_navs.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:10 -0500
+
+
+Started GET "/assets/photos.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/site.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/lodash/dist/lodash.js" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/modernizr/modernizr.js" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/templates/site/footer.html" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/templates/site/index.html" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/templates/site/header.html" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/components-font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/templates/site/about.html" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/templates/site/recommend.html" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/templates/site/iphone.html" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/site/logo_taverna_manolis_chalandri.svg" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/templates/site/intro.html" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/image.svg" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/image.svg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (24.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (24.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (172.6ms)
+
+
+Started GET "/assets/site/slide-bg.jpg" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/site/middle-manolis-logo.png" for 155.178.180.5 at 2016-02-05 07:27:11 -0500
+
+
+Started GET "/assets/site/iphone_website.png" for 155.178.180.5 at 2016-02-05 07:27:12 -0500
+
+
+Started GET "/assets/site/App_Store_Badge_135x40.svg" for 155.178.180.5 at 2016-02-05 07:27:12 -0500

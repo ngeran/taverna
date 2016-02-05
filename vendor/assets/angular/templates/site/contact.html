@@ -1,0 +1,92 @@
+<div class="main" role="main" ng-controller="ContactCtrl">
+	<!-- Google Maps -->
+	 <div ng-include="'assets/templates/site/map.html'"></div>
+	<!-- Google Maps -->
+	<!-- ------------ -->
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-6">
+
+				<div id="contactSuccess" class="alert alert-success hidden">
+					<strong>Success!</strong> Your message has been sent to us.
+				</div>
+
+				<div id="contactError" class="alert alert-danger hidden">
+					<strong>Error!</strong> There was an error sending your message.
+				</div>
+
+				<h2 class="short"><strong>Contact</strong> Us</h2>
+				<form type="post" id="contactForm" action="php/contact-form.php" novalidate="novalidate">
+					<div class="row">
+						<div class="form-group">
+							<div class="col-md-6">
+								<label>Your name *</label>
+								<input type="text" id="name" name="name" class="form-control" maxlength="100" data-msg-required="Please enter your name." value="">
+							</div>
+							<div class="col-md-6">
+								<label>Your email address *</label>
+								<input type="email" id="email" name="email" class="form-control" maxlength="100" data-msg-email="Please enter a valid email address." data-msg-required="Please enter your email address." value="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-md-12">
+								<label>Subject</label>
+								<input type="text" id="subject" name="subject" class="form-control" maxlength="100" data-msg-required="Please enter the subject." value="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group">
+							<div class="col-md-12">
+								<label>Message *</label>
+								<textarea id="message" name="message" class="form-control" rows="10" data-msg-required="Please enter your message." maxlength="5000"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="submit" data-loading-text="Loading..." class="btn btn-primary btn-lg" value="Send Message">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-6">
+
+				<h4 class="push-top">Get in <strong>touch</strong></h4>
+				<p>
+Στέλνοντας αυτό το E-mail, μας επιτρέπετε να καταλάβουμε καλύτερα τις ανάγκες σας. Εκτιμούμε τη γνώμη σας και σας ευχαριστούμε εκ των προτέρων για την προσοχή και το χρόνο που μας διαθέτετε.				</p>
+
+				<hr>
+
+				<h4>Ο <strong>Μανώλης</strong></h4>
+				<ul class="list-unstyled">
+					<li>
+						<i class="icon icon-map-marker"></i><strong>Διευθηνση:</strong> Σάμου 1, Χαλάνδρι 15233, Αθήνα
+					</li>
+					<li>
+						<i class="icon icon-phone"></i><strong>Τηλέφωνο:</strong> (210) 682-4342
+					</li>
+					<li>
+						<i class="icon icon-envelope"></i><strong>Email:</strong><a href="mailto:">info@taverna-manolis.gr</a>
+					</li>
+				</ul>
+
+				<hr>
+
+				<h4>Ωρες <strong>Λειτουργίας</strong></h4>
+				<ul class="list-unstyled">
+					<li>
+						<i class="icon icon-time"></i> Δευτέρα - Κυριακή 12am to 12pm
+					</li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>

@@ -1,0 +1,20 @@
+<div class="catalog-section" ng-controller="CatalogCtrl" >
+	<div class="m-t-xl m-b-xl text-center wrapper">
+          <h2 class="font-thin m-b-lg">Ο Κατάλογος του <span class="text-primary">Μανώλης</span> </h2>
+        </div>
+	<div class="row catalog-row" ng-repeat="category in categories.categories ">
+		<h2 class="no-span catalog-title">{ {{category.name}} }</h2>
+		<div class="col-lg-6 catalog-col" ng-repeat="item in category.items">
+			<div class="item" id="item-01">
+				<div class="info">
+					<div class="dots"></div>
+					<span class="name item_name"><span class="text-primary">{{item.titlegr}}</span></span>
+					<span class="price item_price">€ {{item.price}}</span>
+				</div>
+				<div class="description">
+					{{item.titleen}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

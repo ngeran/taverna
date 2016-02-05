@@ -1,0 +1,770 @@
+@charset "UTF-8";
+/* ============= Reset Preview Image ========== */
+/* line 6, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.image_preview_text {
+  border-bottom: 1px solid #c7c7c7;
+  color: #272727;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 0;
+  padding-bottom: 14px;
+}
+
+/* ============= Image ================= */
+/* line 15, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.modal-dialog {
+  margin: 30px auto;
+  width: 800px;
+}
+
+/* line 19, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.modal-body {
+  text-align: center;
+}
+
+/* line 22, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.modal-header {
+  border-bottom: 0px;
+}
+
+/* line 25, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.onboarding {
+  margin-top: 15px;
+}
+
+/* line 28, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.onboarding .stepNumber, .invoiceSending .stepNumber, .payPreview .stepNumber, .actualPay .stepNumber, .regimBox .stepNumber {
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+/* line 35, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.onboarding h3, .invoiceSending h3, .payPreview h3, .actualPay h3, .regimBox h3 {
+  border-bottom: 1px solid #c7c7c7;
+  color: #272727;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  padding-bottom: 14px;
+}
+
+/* line 43, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.transfer-errors, .photo-errors, .payment-errors {
+  color: #c43636;
+  display: block;
+  padding-bottom: 15px;
+}
+
+/* line 48, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.photoPreview {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  border: 1px solid #b4b4b4;
+  border-radius: 75px;
+  cursor: pointer;
+  height: 150px;
+  margin: 20px auto 0;
+  width: 150px;
+}
+
+/* line 59, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.fa-upload:before {
+  content: "";
+}
+
+/* line 62, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.photoPreview .photoUpload {
+  color: #b4b4b4;
+  font-size: 32px;
+  margin-top: 35px;
+}
+
+/* line 67, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.fa {
+  -moz-font-feature-settings: normal;
+  -moz-font-language-override: normal;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: inherit;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+/* line 82, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.photoPreview p {
+  color: #b4b4b4;
+  font-size: 16px;
+}
+
+/* line 86, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+#uploadAvatar {
+  display: none;
+}
+
+/* line 89, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.onboarding input, .invoiceSending input, .payPreview input, .actualPay input, .regimBox input {
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  outline: medium none;
+  padding: 12px 24px 12px 36px;
+  width: 75%;
+}
+
+/* line 100, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.deletePhoto {
+  color: #da7364;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* line 105, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+#submitPhoto {
+  background-color: #26a65b;
+  border: medium none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 25px 10px 0;
+  padding: 14px 35px;
+  text-transform: uppercase;
+}
+
+/* line 121, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555;
+  height: 100%;
+  width: 100% !important;
+  background-color: #33383d;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 133, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+body > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* ==================== Move font awsome icon ============== */
+/* line 139, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.move-just-a-little-bit {
+  padding-left: 35px;
+}
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 2. TYPOGRAPHY
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+/* line 157, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  line-height: 1em;
+  text-shadow: 0 0 1px rgba(51, 51, 51, 0.2);
+  color: inherit;
+}
+
+/* line 168, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+h1,
+h2,
+h3 {
+  letter-spacing: -1px;
+}
+
+/* line 170, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+a {
+  color: #3b8dbd;
+  text-decoration: none;
+}
+
+/* line 176, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+a:hover,
+a:focus {
+  color: #3e6f82;
+  text-decoration: underline;
+}
+
+/*Text links must always have underline*/
+/* line 186, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+p a {
+  text-decoration: underline;
+}
+
+/*Button as a - not! :) */
+/* line 189, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+blockquote {
+  border-left: 5px solid #c0c2c7;
+}
+
+/* ========================================================================
+ * Bootstrap Colors Override and Resets
+ * ======================================================================== */
+/* line 195, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn-danger {
+  background-color: #d24d33;
+}
+
+/* line 199, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+  background-color: #bc4329;
+}
+
+/* ========================================================================
+ * Bootstrap Buttons and Modifs
+ * ======================================================================== */
+/*Others buttons*/
+/* line 206, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  transition: background .2s;
+  padding: 9px 12px;
+  border: 0;
+}
+
+/* line 213, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/*We no using borders, so we need to remove 1px margins from Bootstrap Buttons*/
+/* line 222, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn-group .btn-group + .btn-group {
+  margin-left: 0;
+}
+
+/* line 224, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn-default {
+  color: #fff;
+  border: 0;
+  background-color: #c0c2c7;
+  border-color: #c0c2c7;
+}
+
+/* line 233, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  color: #fff;
+  background-color: #a7aab1;
+  border-color: #c0c2c7;
+}
+
+/* line 240, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn:focus,
+.btn:active:focus {
+  outline: none;
+}
+
+/* line 242, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.btn i {
+  font-weight: 300;
+}
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 5. PAGES GLOBALS
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+/*Making Vidz Embeds Responsible*/
+/* line 254, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 261, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+iframe,
+embed,
+object {
+  max-width: 100%;
+}
+
+/* ========================================================================
+ * 5.1 Top Horizontal Menu With Sparklines Charts
+ * ======================================================================== */
+/*Media Queries for Horizontal Menu*/
+/*The Badge without the digits - just circle*/
+@keyframes opacity-badge {
+  /* line 283, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  0% {
+    transform: scale(0.5);
+  }
+
+  /* line 286, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@-moz-keyframes opacity-badge {
+  /* line 291, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  0% {
+    transform: scale(0.5);
+  }
+
+  /* line 294, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes opacity-badge {
+  /* line 299, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  0% {
+    transform: scale(0.5);
+  }
+
+  /* line 302, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 6. PAGES
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+/* ========================================================================
+ * 6.1 Gallery Page
+ * ======================================================================== */
+/* line 318, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.img-rounded {
+  border-radius: 3px;
+}
+
+/* line 320, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+ul.thumbnails {
+  list-style: none outside none;
+  margin-bottom: 10px;
+}
+
+/* line 325, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+ul.thumbnails li {
+  margin-bottom: 10px;
+}
+
+/* line 327, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.thumbnail {
+  display: block;
+  padding: 0;
+  background-color: #969fa1;
+  border: 0;
+  border-radius: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+/* line 338, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.thumbnail .caption,
+.thumbnail .caption a {
+  color: #fff;
+  text-align: center;
+}
+
+/* line 343, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-overlay {
+  width: 0px;
+  height: 0px;
+  position: fixed;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  padding: 0;
+  z-index: 10000;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* line 356, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-overlay > div {
+  position: relative;
+  color: #fff;
+  margin: 40px auto 0 auto;
+  height: 80px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+/* line 364, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-overlay a.gal-close {
+  z-index: 1001;
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -25px;
+  opacity: 0;
+  text-decoration: none;
+  filter: alpha(opacity=0);
+}
+
+/* line 379, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-overlay img {
+  /* height: 100%; For Opera max-height does not seem to work */
+  display: block;
+  border-radius: 3px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity .5s linear;
+  -moz-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+  -ms-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+/* line 396, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-prev,
+.gal-next {
+  position: absolute;
+  top: -32px;
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+  left: 50%;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 408, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-prev:hover,
+.gal-next:hover {
+  opacity: 0, 5;
+}
+
+/* line 410, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-prev {
+  margin-left: -30px;
+}
+
+/* line 412, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-next {
+  margin-left: 5px;
+}
+
+/* line 414, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  padding: 100px 30px 120px 30px;
+}
+
+/* line 423, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.gal-overlay:target img,
+.gal-overlay:target a.gal-close {
+  opacity: 1;
+  filter: alpha(opacity=99);
+}
+
+/* line 427, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+x:-o-prefocus, .gal-overlay img {
+  height: 100%;
+}
+
+/*Zoomer*/
+/* line 432, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.hover-fader {
+  position: relative;
+}
+
+/* line 434, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.hover-fader .zoom {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  vertical-align: center;
+  display: none;
+  cursor: pointer;
+}
+
+/* line 446, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.hover-fader i {
+  width: 50px;
+  line-height: 45px;
+  height: 50px;
+  border-radius: 50%;
+  background: #969fa1;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 2em;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 464, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.hover-fader:hover .zoom {
+  display: block;
+}
+
+/* ========================================================================
+ * 6.2. Search Page
+ * ======================================================================== */
+/*Animation*/
+@-webkit-keyframes flip {
+  /* line 471, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    -webkit-transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flip {
+  /* line 477, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    -moz-transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes flip {
+  /* line 483, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+/*Media Queries For List Items*/
+/*Media Queries For Inbox*/
+/* Media Queries For Timeline */
+/* ========================================================================
+ * EasyPies In Server Stats Block
+ * ======================================================================== */
+@media (max-width: 767px) {
+  /*Remove Borders from All Elements*/
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /*Remove Border from second li element*/
+}
+/* ========================================================================
+ * 7.7. Nanoscroller
+ * ======================================================================== */
+/* line 528, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.nano > .nano-content::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+/* line 531, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+  visibility: visible;
+}
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 8. FORMS CHAPTER
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+/* ========================================================================
+ * 8.1 Bootstrap Forms
+ * ======================================================================== */
+/* line 548, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+
+/* line 551, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+/* line 554, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+legend {
+  display: block;
+  font-weight: 400;
+  padding: 0 0 10px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  line-height: inherit;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+/* ========================================================================
+ * 8.2 ORB Forms
+ * ======================================================================== */
+/* buttons */
+@-o-keyframes blink {
+  /* line 569, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 572, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  50% {
+    opacity: 0.3;
+  }
+
+  /* line 575, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes blink {
+  /* line 580, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 583, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  50% {
+    opacity: 0.3;
+  }
+
+  /* line 586, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  /* line 591, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 594, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  50% {
+    opacity: 0.3;
+  }
+
+  /* line 597, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  /* line 602, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 605, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  50% {
+    opacity: 0.3;
+  }
+
+  /* line 608, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* normal state */
+/* hover state */
+/* line 617, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+textarea:hover,
+input:hover {
+  background: #fffbdb;
+}
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 15. RESPONSIVE FEATURES (MEDIA QUERIES)
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+/* ========================================================================
+ * Code Styling
+ * ======================================================================== */
+/* line 642, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 644, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+code {
+  padding: 1px 3px;
+  font-size: 0.95em;
+  color: #c7254e;
+  white-space: nowrap;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+/* --------------------- Photo Header -----------------------------*/
+/* line 654, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.page-header {
+  border-bottom: 1px solid #eeeeee;
+  margin: 20px 0;
+  padding-bottom: 9px;
+}
+
+/* line 659, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.photo-header h1 {
+  width: 80%;
+}
+
+/* line 662, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.add-photo {
+  float: right;
+  position: relative;
+  top: -40px;
+}
+
+/* ----------------------- Reset Preview Image Color ----------------- */
+/* line 669, /home/rails/taverna-manolis/app/assets/stylesheets/photos.css.scss */
+.photoPreview .white {
+  color: #000000;
+}

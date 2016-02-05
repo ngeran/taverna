@@ -1,0 +1,33 @@
+$("#myModal").html("<%= escape_javascript(render(:partial => 'users/newuser')) %>");
+
+$('.deletePhoto').hide();
+$('.hidden-field').hide();
+$('.photoPreview').click(function() {
+    $(this).attr('disabled', 'true');
+    $('.uploadImage').trigger('click');
+});
+$(".uploadImage").change(function(){
+    $('.photoPreview').removeAttr('disabled');
+    readURL(this);
+});
+
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            $('.photoPreview').css('background', 'url(' + e.target.result + ')');
+            $('.photoUpload, #uploadClick').hide();
+        }
+        $('.deletePhoto').show();
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+
+$('.deletePhoto').click(function() {
+    $('.deletePhoto').hide();
+    $('.uploadImage').val('');
+    $('.photoPreview').css('background', '');
+    $('.photoUpload, #uploadClick').show();
+});

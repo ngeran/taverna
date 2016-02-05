@@ -1,0 +1,21 @@
+<%= form_for @user, :html => {:class => "form-horizontal margin-bottom-0", :multipart => true} do |f|%>
+	<div class="profile-header">
+		<i class="icon-picture"></i> Profile Image
+	</div>
+	<div class="control-group">
+		<label class="control-label">Image</label>
+		<div class="controls user-profile padding-0">
+			<div class="profile-image">
+			</div>
+		</div>
+	</div>
+	<div class="control-group">
+		<div class="controls">
+		</div>
+	</div>
+	<div class="form-actions">
+		<button type="submit" class="btn btn-primary">
+			<i class="icon-ok-sign"></i> Upload Image
+		</button>
+	</div>
+<% end %>

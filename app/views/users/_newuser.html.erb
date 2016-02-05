@@ -1,0 +1,83 @@
+<div class="modal-dialog ">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+      </button>
+    </div>
+    <!-- Modal Body -->
+    <div class="modal-body"><!-- Modal Body starts here -->
+      <!-----   Code here ---------->
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name) , :html => { :class => "form-horizontal ng-pristine ng-valid"}) do |f| %>
+          <%= devise_error_messages! %>
+      <div class="row">
+        <div class="col-sm-6">
+          <section class="panel-default">
+            <h3>User information</h3>
+              <!---- User Name Field -->
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-user"></span>
+                                </span>
+                  <%= f.text_field :name, autofocus: true ,:placeholder => "User name", :class => 'form-control' %>
+                </div>
+              </div>
+              <!-- User email field -->
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                  <%= f.email_field :email, autofocus: true ,:placeholder => "Email", :class => 'form-control' %>
+                </div>
+              </div>
+              <!-- User Password Field -->
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-lock"></span>
+                                </span>
+                  <%= f.password_field :password, :placeholder => "Password", autocomplete: "off" , :class => 'form-control' %>
+                </div>
+              </div>
+              <!-- User Password Confirmation Filed -->
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-lock"></span>
+                                </span>
+                  <%= f.password_field :password_confirmation, :placeholder => "Password Confirmation", autocomplete: "off" , :class => 'form-control'%>
+                </div>
+              </div>
+              <!--- Select User Role -->
+              <div class="form-group">
+                <label class="align-left">Select User Role</label>
+                <%= f.select(:role, User.roles.keys.map {|role| [role.titleize,role]}, { :class => 'my_style_class' }) %>
+              </div>
+        </div>
+        <!------ Photo Upload Section -->
+        <div class="col-sm-6">
+          <section class="panel-default">
+            <div class="panel-body form-right">
+              <!-- Insert New Photo -->
+              <div class="onboarding">
+                <h3>Upload Your Photo</h3>
+                <div class="photoPreview">
+                  <i class="fa fa-upload photoUpload"></i>
+                  <p id="uploadClick">Click to Upload</p>
+                </div>
+                <%= f.file_field :avatar, :class => "uploadImage hidden-field" %>
+                <p class="btn btn-s-md btn-danger deletePhoto">Delete Photo</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+          <footer class="panel-footer text-center bg-light lter">
+          <%= f.button :submit, :class => "btn btn-s-md btn-dark submitPhoto" %>
+            </footer>
+      <% end %>
+    </div> <!-- Modal body ends here -->
+  </div>
+</div>

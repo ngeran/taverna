@@ -1,0 +1,18 @@
+<!-- header -->
+<header ng-controller="HeaderCtrl" id="header" class="navbar navbar-fixed-top bg-white box-shadow b-b b-light"  data-spy="affix" data-offset-top="1">
+	<div class="container">
+		<div class="navbar-header home-page">
+			<a href="#" class="navbar-brand"><img src="assets/site/logo_taverna_manolis_chalandri.svg" > <span class="text-muted">Ταβέρνα Ο Μανώλης</span> </a>
+			<button class="btn btn-link visible-xs" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+				<i class="fa fa-bars"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active" ng-repeat="item in navItems">
+					<a ng-href="#/{{item.url}}">{{item.name}}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>

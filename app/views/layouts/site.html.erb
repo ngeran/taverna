@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="ManolisApp">
+	<head>
+		<meta charset="utf-8" />
+		<title>Taverna Manolis | Samou 1 Chalandri (210) 682-4342</title>
+		<meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+		<link rel="stylesheet" media="all" href="/assets/main.css" >
+		<link href='http://fonts.googleapis.com/css?family=Comfortaa:400,300&subset=latin,greek' rel='stylesheet' type='text/css'>
+		<%= csrf_meta_tags %>
+	</head>
+	<body>
+		<div ng-include="'assets/templates/site/header.html'"></div>
+		<div ng-view></div>
+		<div ng-include="'assets/templates/site/footer.html'"></div>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= custom_bootstrap_flash %>
+		<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+		<script src='assets/lodash/dist/lodash.js'></script>
+		<script src='assets/modernizr/modernizr.js'></script>
+		<script src='assets/angular-google-maps/dist/angular-google-maps.js'></script>
+	</body>
+</html>

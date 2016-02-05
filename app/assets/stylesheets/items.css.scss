@@ -1,0 +1,804 @@
+// Place all the styles related to the albums controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* ==================== Extra CSS  ============== */
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555;
+  height: 100%;
+  width: 100%!important;
+  background-color: #33383d;
+  margin: 0;
+  padding:0;
+}
+
+body > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 2. TYPOGRAPHY
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  line-height: 1em;
+  text-shadow: 0 0 1px rgba(51,51,51,.2);
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+.page-header h1,
+.page-header h2,
+.page-header h3 { letter-spacing: -1px; }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #3e6f82;
+  text-decoration: underline;
+}
+
+.page-header {
+  margin-top: 10px;
+  border-bottom: 5px solid #dddddb
+}
+
+.page-header h1 {
+  margin: 0;
+  color: #858689;
+  text-transform: uppercase
+}
+
+.page-header h2,
+.page-header h3 { margin: 0; }
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing:0;
+  color: #949fb2;
+  font-size: 75%;
+}
+
+h1 small:before,
+h2 small:before,
+h3 small:before,
+h4 small:before,
+h5 small:before,
+h6 small:before,
+.h1 small:before,
+.h2 small:before,
+.h3 small:before,
+.h4 small:before,
+.h5 small:before,
+.h6 small:before,
+h1 .small:before,
+h2 .small:before,
+h3 .small:before,
+h4 .small:before,
+h5 .small:before,
+h6 .small:before,
+.h1 .small:before,
+.h2 .small:before,
+.h3 .small:before,
+.h4 .small:before,
+.h5 .small:before,
+.h6 .small:before { content: "\0000a0 \7c \0000a0"; }
+
+h1.colossal {
+  font-size:3.5em;
+  letter-spacing:-2px;}
+
+h1.colossal i {
+  font-size:50%;
+  vertical-align: middle;
+  padding:0 5px;
+}
+
+/*Text links must always have underline*/
+
+
+p a { text-decoration: underline }
+
+/*Button as a - not! :) */
+
+
+a.btn { text-decoration: none }
+
+.label {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+blockquote {
+  border-left: 5px solid #c0c2c7;
+}
+
+.dropcap {
+  display: block;
+  background: #f1f1f1;
+  color: #555;
+  float: left;
+  line-height: 40px;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 8px;
+  padding-bottom: 12px;
+  margin-right: 10px;
+}
+
+.dark-block {
+  width: 150px;
+  font-size: .95em;
+  padding: 20px;
+  margin-left: 10px;
+  background: #555;
+  color: #fff
+}
+
+.scissors-block {
+  border: 2px dotted #999;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 15px;
+  position: relative;
+}
+
+.scissors-block:before {
+  font-family: 'FontAwesome';
+  content: "\f0c4";
+  color: #999;
+  background: #fff;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  position: absolute;
+  top: -20px;
+  right: 49%;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.scissors-block:after {
+  font-family: 'FontAwesome';
+  content: "\f0c4";
+  color: #999;
+  background: #fff;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  position: absolute;
+  bottom: -20px;
+  right: 49%
+}
+
+.icon-block {
+  display: block;
+  float: left;
+  width: 120px;
+  text-align: center;
+  height: 120px;
+  background: #f1f1f1;
+  border-radius: 50%;
+  padding: 20px;
+  font-style: italic;
+  margin: 0 10px;
+  color: #999
+}
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 4. ORB WIDGETS
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+
+/* Main */
+
+
+.powerwidget {
+  margin: 0 0 20px 0;
+  position: relative;
+  border-radius: 3px;
+  padding: 0;
+}
+
+/* Header */
+
+
+.powerwidget > header {
+  height: 40px;
+  padding: 0 0 0 10px;
+  line-height: 40px;
+}
+
+.ui-sortable .powerwidget-sortable > header { cursor: move; }
+
+.powerwidget > header h2 {
+  height: 100%;
+  letter-spacing: normal;
+  width: auto;
+  float: left;
+  font-size: 1.2em;
+  position: relative;
+  margin: 0;
+  line-height: 40px;
+}
+
+.powerwidget > header .powerwidget-icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin: 12px 5px 0 0;
+  display: block;
+  zoom: 1;
+  z-index: 4000;
+  text-align: center;
+  line-height: 16px;
+  font-size: 13px;
+}
+
+.powerwidget-ctrls {
+  width: auto;
+  float: right;
+  padding: 10px 2px 0 0;
+  margin: 0;
+}
+
+.powerwidget-ctrls .button-icon {
+  float: left;
+  position: relative;
+  margin: 0 5px 5px 0;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.powerwidget-ctrls .button-icon i {
+  width: 18px;
+  text-align: center;
+}
+
+.powerwidget-ctrls .button-icon:hover { text-decoration: none; }
+
+/* Content */
+
+
+.powerwidget > div {
+  float: left;
+  width: 100%;
+  min-height: 20px;
+  position: relative;
+  margin: 0;
+}
+
+.powerwidget .inner-spacer {
+  padding: 10px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.powerwidget .inner-spacer-zero-padding { padding: 0; }
+
+/* Edit box */
+
+
+.powerwidget-editbox input { width: 85% }
+
+.powerwidget-editbox {
+  display: none;
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: #969fa1;
+}
+
+.powerwidget-editbox div {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.powerwidget-editbox label {
+  width: 15%;
+  color: #fff;
+  float: left;
+  line-height: 25px;
+}
+
+.powerwidget-editbox span {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 5px;
+  cursor: pointer;
+  box-shadow: 0 0 0 4px rgba(255,255,255,.3)
+}
+
+.powerwidget-editbox span:hover { box-shadow: 0 0 0 4px rgba(0,0,0,.1) }
+
+/* Timestamp */
+
+
+
+.powerwidget-timestamp { font-size: .9em; }
+
+/* Helpers */
+
+
+.powerwidget-placeholder {
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Fullscreen */
+
+
+body.nooverflow {
+  overflow: hidden;
+  position: fixed;
+}
+
+#powerwidget-fullscreen-mode {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+}
+
+#powerwidget-fullscreen-mode .powerwidget {
+  margin: 0;
+  border-radius: 0;
+}
+
+#powerwidget-fullscreen-mode .powerwidget > div {
+  overflow-y: scroll;
+  border-radius: 0;
+}
+
+#powerwidget-fullscreen-mode > div > header { cursor: default; }
+
+/* Styling */
+
+
+.powerwidget {
+  background-color: #c4c5c5;
+  border-radius: 3px;
+}
+
+.powerwidget > header,
+.powerwidget > header small { color: #fff; }
+
+.powerwidget-ctrls { margin-right: 5px; }
+
+.powerwidget-ctrls .button-icon {
+  font-size: .9em;
+  color: #fff;
+  margin: 1px;
+}
+
+.powerwidget-loader {
+  -webkit-animation: spin 3s infinite linear;
+  -moz-animation: spin 3s infinite linear;
+  -o-animation: spin 3s infinite linear;
+  animation: spin 3s infinite linear;
+  font-size: 13px;
+  margin-right: 5px;
+  float: right;
+  line-height: 38px;
+  display: none;
+}
+
+.powerwidget-loader:before {
+  font-family: FontAwesome;
+  content: "\f1ce";
+}
+
+.powerwidget > div { background-color: #fff; }
+
+.powerwidget-placeholder { background: url(../images/bg-stripped.png); }
+
+/* Clearfix */
+
+
+.powerwidget:before,
+.powerwidget:after,
+.powerwidget > div:before,
+.powerwidget > div:after,
+.inner-spacer:before,
+.inner-spacer:after,
+.powerwidget-editbox:before,
+.powerwidget-editbox:after,
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.powerwidget:after,
+.powerwidget > div:after,
+.inner-spacer:after,
+.powerwidget-editbox:after,
+.clearfix:after { clear: both; }
+
+.powerwidget,
+.powerwidget > div,
+.inner-spacer:after,
+.powerwidget-editbox,
+.clearfix { zoom: 1;/*IE*/ }
+
+
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 4. BOOTSTRAP OVERRIDE
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+
+
+/* ========================================================================
+ * Bootstrap Modal
+ * ======================================================================== */
+
+.modal {
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.modal-content {
+  position: relative;
+  border: 0;
+  border: 0;
+  border-radius: 6px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  outline: none;
+  -webkit-box-shadow: 0 0 0 6px rgba(0,0,0,.1);
+  box-shadow: 0 0 0 6px rgba(0,0,0,.1);
+}
+
+.modal-header {
+  padding: 15px;
+  border: 0;
+}
+
+.modal-header i {
+  font-size: 4em;
+  color: #fff;
+  line-height: 80px;
+  text-align: center;
+  width: 80px;
+  display: block;
+  border-radius: 50%;
+  height: 80px;
+  margin: 0 auto;
+  background: #969fa1
+}
+
+.modal-header .close { margin-top: -2px; }
+
+.modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+
+.modal-body {
+  position: relative;
+  padding: 20px;
+}
+
+.modal-footer {
+  padding: 10px 20px 20px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-top: 15px;
+  text-align: right;
+  border: 0;
+}
+
+/* ========================================================================
+ * Bootstrap Popovers
+ * ======================================================================== */
+
+
+.popover {
+  z-index: 1010;
+  max-width: 276px;
+  padding: 0;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #c0c2c7;
+  border: 2px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, .05);
+}
+
+.popover .popover-title {
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 0;
+}
+
+.popover-tooltip-example {
+  text-align: center;
+}
+
+ul.popover-tooltip-example {
+  list-style: none;
+  margin:0;
+  padding:0;}
+
+ul.popover-tooltip-example li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+
+/* ========================================================================
+ * Bootstrap Dropdowns
+ * ======================================================================== */
+
+
+.dropdown-menu {
+  font-size: 13px;
+  border: 0;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+}
+
+/* ========================================================================
+ * Boostrap Tables
+ * ======================================================================== */
+
+
+.table h1,
+.table h2,
+.table h3,
+.table h4,
+.table h5 {
+  margin: 0;
+  margin-bottom: 2px
+}
+
+.table {
+  border-top: 0;
+  background: #fff;
+}
+
+.table .num {
+  font-size: 0.8em;
+  display: inline-block;
+  padding: 7px;
+  width: 29px;
+  text-align: center;
+  border-radius: 35px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #d3d3d3;
+}
+
+.table .label {
+  font-size: .75em;
+  display: inline-block;
+  margin: 2px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 6px 8px;
+  vertical-align: middle;
+  border-top: 1px solid #e2eae9;
+}
+
+.table > thead > tr > th {
+  background: #858689;
+  color: #fff;
+  font-size: .87em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #8b8c8d;
+  padding: 7px 10px;
+  border-bottom: 7px solid #ddd
+}
+
+.table > tfoot > tr > th {
+  background: #ddd;
+  color: #999;
+  font-size: .87em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #ddd;
+  padding: 7px 10px;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th { background-color: #d8e3e6; }
+
+.table-hover > tbody > tr:hover > td .num,
+.table-hover > tbody > tr:hover > th .num { background-color: #858689; }
+
+/*Tables with Transparent thead and tfoot - the r air like*/
+
+.table.airtable > thead > tr > th {
+  color: #858689;
+  background: transparent;
+  font-size: .87em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #fff;
+  padding: 7px 10px;
+  border-bottom: 7px solid #ddd
+}
+
+.table.airtable > tfoot > tr > th {
+  background: transparent;
+  color: #999;
+  font-size: .87em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #fff;
+  border-top: 7px solid #ddd;
+  padding: 7px 10px;
+}
+
+/*Dark Tables*/
+
+.table.table-dark { border-top: 0 }
+
+.table.table-dark .num {
+  color: #fff;
+  background-color: #595F66;
+}
+
+.table.table-dark > thead > tr > th,
+.table.table-dark > tfoot > tr > th {
+  background: #595F66;
+  color: #fff;
+  font-size: .87em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid #595F66;
+  padding: 7px 10px;
+  border-bottom: 7px solid #33383d
+}
+
+.table.table-dark > tbody > tr > td {
+  background: #33383d;
+  border-top: 1px solid #33363b;
+  color: #fff;
+}
+
+.table-striped.table-dark > tbody > tr:nth-child(odd) > td,
+.table-striped.table-dark > tbody > tr:nth-child(odd) > th { background-color: #454B52; }
+
+.table-hover.table-dark > tbody > tr:hover > td,
+.table-hover.table-dark > tbody > tr:hover > th {
+  background-color: #595F66;
+  transition: background .2s ease-in-out; /*Annoyable Transition as a Experient*/
+}
+
+.table-hover.table-dark > tbody > tr:hover > td .num,
+.table-hover.table-dark > tbody > tr:hover > th .num { background-color: #3c4250; }
+
+.table-bordered.table-dark > tbody > tr > th,
+.table-bordered.table-dark > tfoot > tr > th,
+.table-bordered.table-dark > tbody > tr > td,
+.table-bordered.table-dark > tfoot > tr > td { border: 1px solid #454B52; }
+
+
+flip { 100% {
+  -webkit-transform: rotateX(0deg);
+  opacity: 1;
+}
+}
+@-moz-keyframes
+flip { 100% {
+  -moz-transform: rotateX(0deg);
+  opacity: 1;
+}
+}
+@keyframes
+flip { 100% {
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+}
+
+// ==================== Remove White Line Under Header ============== */
+.panel {
+  border: 0px;
+}

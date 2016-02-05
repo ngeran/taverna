@@ -1,0 +1,65 @@
+<div class="page-header">
+  <h1>
+    Album
+    <small>managment</small>
+  </h1>
+</div>
+<section class="panel panel-default">
+  <!-- Data Tables -->
+  <div class="col-md-12 bootstrap-grid sortable-grid ui-sortable">
+    <div data-widget-editbutton="false" id="darkportletdarktable"
+         class="powerwidget powerwidget-as-portlet-white powerwidget-sortable" style="" role="widget">
+      <header role="heading">
+        <div class="big-icons-buttons">
+          <div class="col-md-12 space20">
+            <%= link_to '<i class="fa fa-plus"></i>'.html_safe,  new_album_path, {:remote => true, 'data-toggle' => "modal", 'data-target' => '#myModal', :class => "btn btn-s-md btn-dark move20left"} %>
+            <div class="btn-group pull-right">
+              <button class="btn btn-green dropdown-toggle move20right" data-toggle="dropdown">
+                Export <i class="fa fa-angle-down"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-light pull-right">
+                <li>
+                  <a href="#">CSV</a>
+                </li>
+                <li>
+                  <a href="#">Excel</a>
+                </li>
+                <li>
+                  <a href="#">PDF</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="inner-spacer" role="content">
+        <table id="datatable" class="table-dark table table-striped table-bordered table-hover margin-0px">
+          <thead>
+          <tr>
+            <th width="30%" colspan="2">Title</th>
+            <th width="50%">Description</th>
+            <th width="5%">Photos</th>
+            <th width="5%">Edit</th>
+            <th width="10%">Delete</th>
+          </tr>
+          </thead>
+          <tbody>
+          <% @albums.each do |album| %>
+              <tr>
+                <td width="1%"><span class="num"><%= album.id %></span></td>
+                <td><%= album.title %></td>
+                <td><%= album.description %></td>
+                <td><%= album.photos.count %></td>
+                <td><%= link_to '<i class="fa fa-pencil-square-o"></i>'.html_safe, edit_album_path(album),{:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#myModal'} %></td>
+                <td><%= link_to content_tag(:i,nil, :class=>"fa fa-trash-o"), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+              </tr>
+          <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- /Data Tables -->
+</section>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
+

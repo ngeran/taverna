@@ -1,0 +1,27 @@
+<h1>Listing main_navs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Url</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @main_navs.each do |main_nav| %>
+      <tr>
+        <td><%= main_nav.title %></td>
+        <td><%= main_nav.url %></td>
+        <td><%= link_to 'Show', main_nav %></td>
+        <td><%= link_to 'Edit', edit_main_nav_path(main_nav) %></td>
+        <td><%= link_to 'Destroy', main_nav, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Main nav', new_main_nav_path %>

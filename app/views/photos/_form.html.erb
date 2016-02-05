@@ -1,0 +1,63 @@
+<div class="modal-dialog ">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+      </button>
+    </div>
+    <!-- Modal Body -->
+    <div class="modal-body">
+      <!------------------ Gallery Form   -------------------->
+      <%= simple_form_for @photo, defaults: {input_html: {class: 'form-control'}} do |f| %>
+          <%= f.error_notification %>
+          <div class="row">
+            <div class="col-sm-6 ">
+              <section class="panel panel-default">
+                <div class="panel-body form-left">
+                  <div class="onboarding">
+                    <h3>Photo Information</h3>
+                  </div>
+                  <div class="form-group align-left">
+                    <%= f.input :title, :placeholder => 'Enter Title', label: 'Image Title', :input_html => {:maxlength => 21} %>
+                  </div>
+                  <div class="form-group align-left">
+                    <%= f.input :description, :placeholder => 'Enter Description', label: 'Image Description', :input_html => {:maxlength => 33} %>
+                  </div>
+                  <%= f.association :album, input_html: {class: 'btn btn-sm btn-default dropdown-toggle'} %>
+                </div>
+              </section>
+            </div>
+            <div class="col-sm-6 ">
+              <section class="panel panel-default">
+                <div class="panel-body form-right">
+                  <!-- Insert New Photo -->
+                  <div class="onboarding">
+                    <h3>Upload New Photo</h3>
+                    <% if @photo.image? %>
+                        <div class="photoPreview" style="background:url(<%= @photo.image_url %>) " >
+                          <i class="fa fa-upload photoUpload white"></i>
+                          <p id="uploadClick" class="white">Click to Upload</p>
+                        </div>
+                    <% else %>
+                        <div class="photoPreview">
+                          <i class="fa fa-upload photoUpload"></i>
+                          <p id="uploadClick">Click to Upload</p>
+                        </div>
+                    <% end %>
+                    <%= f.file_field :image, name: "photo[image]", accept: 'image/png,image/gif,image/jpeg, image/jpg', :class => "uploadImage hidden-field" %>
+                    <%= f.hidden_field :image_cache %>
+                    <p class="btn btn-s-md btn-danger deletePhoto">Delete Photo</p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <footer class="panel-footer text-center bg-light lter">
+            <%= f.button :submit, 'Submit New Photo', :class => "btn btn-s-md btn-dark submitPhoto" %>
+          </footer>
+      <% end %>
+      <!------------------   -------------------->
+    </div>
+    <!-- Modal Body end here -->
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="page-header">
+  <h1>
+    User
+    <small>information</small>
+  </h1>
+</div>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="#overview" role="tab" data-toggle="tab">About</a></li>
+  <li><a href="#profile" role="tab" data-toggle="tab">Edit Profile</a></li>
+  <li><a href="#settings" role="tab" data-toggle="tab">Update Password</a></li>
+</ul>
+<!-- Tab panes -->
+<div class="tab-content col-md-12">
+  <div class="tab-pane active" id="overview">
+    <%= render partial:"overview"%>
+  </div>
+  <div class="tab-pane col-md-12" id="profile">
+    <%= render partial:"edituser"%>
+  </div>
+  <div class="tab-pane col-md-12" id="settings">
+    <%= render partial:"updatepassword"%>
+  </div>
+</div>
+<!-- end: PAGE CONTENT-->

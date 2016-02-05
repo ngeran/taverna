@@ -1,0 +1,670 @@
+// Place all the styles related to the photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* ============= Reset Preview Image ========== */
+.image_preview_text {
+  border-bottom: 1px solid #c7c7c7;
+  color: #272727;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 0;
+  padding-bottom: 14px;
+}
+/* ============= Image ================= */
+.modal-dialog {
+  margin: 30px auto;
+  width: 800px;
+}
+.modal-body {
+  text-align: center;
+}
+.modal-header{
+  border-bottom: 0px;
+}
+.onboarding {
+  margin-top: 15px;
+}
+.onboarding .stepNumber, .invoiceSending .stepNumber, .payPreview .stepNumber, .actualPay .stepNumber, .regimBox .stepNumber {
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.onboarding h3, .invoiceSending h3, .payPreview h3, .actualPay h3, .regimBox h3 {
+  border-bottom: 1px solid #c7c7c7;
+  color: #272727;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  padding-bottom: 14px;
+}
+.transfer-errors, .photo-errors, .payment-errors {
+  color: #c43636;
+  display: block;
+  padding-bottom: 15px;
+}
+.photoPreview {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  border: 1px solid #b4b4b4;
+  border-radius: 75px;
+  cursor: pointer;
+  height: 150px;
+  margin: 20px auto 0;
+  width: 150px;
+}
+.fa-upload:before {
+  content: "";
+}
+.photoPreview .photoUpload {
+  color: #b4b4b4;
+  font-size: 32px;
+  margin-top: 35px;
+}
+.fa {
+  -moz-font-feature-settings: normal;
+  -moz-font-language-override: normal;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: inherit;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+.photoPreview p {
+  color: #b4b4b4;
+  font-size: 16px;
+}
+#uploadAvatar {
+  display: none;
+}
+.onboarding input, .invoiceSending input, .payPreview input, .actualPay input, .regimBox input {
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  outline: medium none;
+  padding: 12px 24px 12px 36px;
+  width: 75%;
+}
+.deletePhoto {
+  color: #da7364;
+  cursor: pointer;
+  margin-top:15px;
+}
+#submitPhoto {
+  background-color: #26a65b;
+  border: medium none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 25px 10px 0;
+  padding: 14px 35px;
+  text-transform: uppercase;
+}
+
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555;
+  height: 100%;
+  width: 100%!important;
+  background-color: #33383d;
+  margin: 0;
+  padding:0;
+}
+
+body > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* ==================== Move font awsome icon ============== */
+.move-just-a-little-bit{
+  padding-left:35px;
+}
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 2. TYPOGRAPHY
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  line-height: 1em;
+  text-shadow: 0 0 1px rgba(51,51,51,.2);
+  color: inherit;
+}
+
+h1,
+h2,
+h3 { letter-spacing: -1px; }
+
+a {
+  color: #3b8dbd;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #3e6f82;
+  text-decoration: underline;
+}
+
+
+
+
+
+/*Text links must always have underline*/
+p a { text-decoration: underline }
+
+/*Button as a - not! :) */
+blockquote {
+  border-left: 5px solid #c0c2c7;
+}
+/* ========================================================================
+ * Bootstrap Colors Override and Resets
+ * ======================================================================== */
+.btn-danger { background-color: #d24d33; }
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active { background-color: #bc4329; }
+
+/* ========================================================================
+ * Bootstrap Buttons and Modifs
+ * ======================================================================== */
+
+/*Others buttons*/
+.btn {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  transition: background .2s;
+  padding: 9px 12px;
+  border: 0;
+}
+.btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/*We no using borders, so we need to remove 1px margins from Bootstrap Buttons*/
+
+.btn-group .btn-group + .btn-group { margin-left: 0; }
+
+.btn-default {
+  color: #fff;
+  border: 0;
+  background-color: #c0c2c7;
+  border-color: #c0c2c7;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  color: #fff;
+  background-color: #a7aab1;
+  border-color: #c0c2c7;
+}
+
+.btn:focus,
+.btn:active:focus { outline: none; }
+
+.btn i { font-weight: 300; }
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 5. PAGES GLOBALS
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+
+/*Making Vidz Embeds Responsible*/
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe,
+embed,
+object { max-width: 100%; }
+
+
+/* ========================================================================
+ * 5.1 Top Horizontal Menu With Sparklines Charts
+ * ======================================================================== */
+
+/*Media Queries for Horizontal Menu*/
+
+@media screen and (max-width: 65em) {
+
+
+}
+@media screen and (max-width: 51.4375em) {
+
+}
+@media screen and (max-width: 25em) {
+
+}
+
+/*The Badge without the digits - just circle*/
+@keyframes
+opacity-badge { 0% {
+  transform: scale(0.5)
+}
+  100% {
+    transform: scale(1.2)
+  }
+}
+@-moz-keyframes
+opacity-badge { 0% {
+  transform: scale(0.5)
+}
+  100% {
+    transform: scale(1.2)
+  }
+}
+@-webkit-keyframes
+opacity-badge { 0% {
+  transform: scale(0.5)
+}
+  100% {
+    transform: scale(1.2)
+  }
+}
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 6. PAGES
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+
+/* ========================================================================
+ * 6.1 Gallery Page
+ * ======================================================================== */
+
+.img-rounded { border-radius: 3px; }
+
+ul.thumbnails {
+  list-style: none outside none;
+  margin-bottom: 10px;
+}
+
+ul.thumbnails li { margin-bottom: 10px; }
+
+.thumbnail {
+  display: block;
+  padding: 0;
+  background-color: #969fa1;
+  border: 0;
+  border-radius: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.thumbnail .caption,
+.thumbnail .caption a {
+  color: #fff;
+  text-align: center
+}
+
+.gal-overlay {
+  width: 0px;
+  height: 0px;
+  position: fixed;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  padding: 0;
+  z-index: 10000;
+  text-align: center;
+  background: rgba(0,0,0,.85);
+}
+
+.gal-overlay > div {
+  position: relative;
+  color: #fff;
+  margin: 40px auto 0 auto;
+  height: 80px;
+  text-shadow: 0 1px 1px rgba(255,255,255,.6);
+}
+
+.gal-overlay a.gal-close {
+  z-index: 1001;
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -25px;
+  opacity: 0;
+  text-decoration: none;
+  filter: alpha(opacity=0);
+}
+
+.gal-overlay img {
+  /* height: 100%; For Opera max-height does not seem to work */
+  display: block;
+  border-radius: 3px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity .5s linear;
+  -moz-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+  -ms-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+.gal-prev,
+.gal-next {
+  position: absolute;
+  top: -32px;
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+  left: 50%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.gal-prev:hover,
+.gal-next:hover { opacity: 0, 5; }
+
+.gal-prev { margin-left: -30px; }
+
+.gal-next { margin-left: 5px; }
+
+.gal-overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  padding: 100px 30px 120px 30px;
+}
+
+.gal-overlay:target img,
+.gal-overlay:target a.gal-close {
+  opacity: 1;
+  filter: alpha(opacity=99);
+}
+x:-o-prefocus, .gal-overlay img {
+  height: 100%;
+}
+
+/*Zoomer*/
+.hover-fader { position: relative }
+
+.hover-fader .zoom {
+  background-color: rgba(255,255,255,.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  vertical-align: center;
+  display: none;
+  cursor: pointer;
+}
+
+.hover-fader i {
+  width: 50px;
+  line-height: 45px;
+  height: 50px;
+  border-radius: 50%;
+  background: #969fa1;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 2em;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hover-fader:hover .zoom { display: block; }
+
+/* ========================================================================
+ * 6.2. Search Page
+ * ======================================================================== */
+/*Animation*/
+@-webkit-keyframes
+flip { 100% {
+  -webkit-transform: rotateX(0deg);
+  opacity: 1;
+}
+}
+@-moz-keyframes
+flip { 100% {
+  -moz-transform: rotateX(0deg);
+  opacity: 1;
+}
+}
+@keyframes
+flip { 100% {
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+}
+
+/*Media Queries For List Items*/
+
+@media screen and (max-width: 57em) {
+
+
+}
+@media screen and (max-width: 47.375em) {
+
+}
+
+/*Media Queries For Inbox*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (max-width: 768px) {
+
+}
+
+/* Media Queries For Timeline */
+@media screen and (max-width: 47.2em) {
+
+}
+
+/* ========================================================================
+ * EasyPies In Server Stats Block
+ * ======================================================================== */
+
+@media (max-width: 767px) {
+
+  /*Remove Borders from All Elements*/
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /*Remove Border from second li element*/
+}
+
+/* ========================================================================
+ * 7.7. Nanoscroller
+ * ======================================================================== */
+.nano > .nano-content::-webkit-scrollbar {
+  visibility: hidden;
+}
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+  visibility: visible;
+}
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 8. FORMS CHAPTER
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+
+
+/* ========================================================================
+ * 8.1 Bootstrap Forms
+ * ======================================================================== */
+
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+legend {
+  display: block;
+  font-weight: 400;
+  padding: 0 0 10px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  line-height: inherit;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+/* ========================================================================
+ * 8.2 ORB Forms
+ * ======================================================================== */
+/* buttons */
+@-o-keyframes
+blink { 0% {
+  opacity: 1
+}
+  50% {
+    opacity: 0.3
+  }
+  100% {
+    opacity: 1
+  }
+}
+@-ms-keyframes
+blink { 0% {
+  opacity: 1
+}
+  50% {
+    opacity: 0.3
+  }
+  100% {
+    opacity: 1
+  }
+}
+@-moz-keyframes
+blink { 0% {
+  opacity: 1
+}
+  50% {
+    opacity: 0.3
+  }
+  100% {
+    opacity: 1
+  }
+}
+@-webkit-keyframes
+blink { 0% {
+  opacity: 1
+}
+  50% {
+    opacity: 0.3
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+/* normal state */
+
+/* hover state */
+textarea:hover,
+input:hover { background: #fffbdb; }
+
+/* ========================================================================
+ * ========================================================================
+ * ========================================================================
+ * 15. RESPONSIVE FEATURES (MEDIA QUERIES)
+ * ========================================================================
+ * ========================================================================
+ * ======================================================================== */
+
+
+@media screen and (max-width: 767px)  {
+
+}
+
+
+@media screen and (max-width: 480px) {
+}
+
+/* ========================================================================
+ * Code Styling
+ * ======================================================================== */
+code,
+kbd,
+pre,
+samp { font-family: 'Open Sans', sans-serif; }
+
+code {
+  padding: 1px 3px;
+  font-size: 0.95em;
+  color: #c7254e;
+  white-space: nowrap;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+/* --------------------- Photo Header -----------------------------*/
+.page-header {
+  border-bottom: 1px solid #eeeeee;
+  margin: 20px 0;
+  padding-bottom: 9px;
+}
+.photo-header h1{
+    width:80%;
+}
+.add-photo {
+  float: right;
+  position: relative;
+  top: -40px;
+}
+
+/* ----------------------- Reset Preview Image Color ----------------- */
+.photoPreview .white {
+  color: #000000;
+}
